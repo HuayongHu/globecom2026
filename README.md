@@ -115,8 +115,6 @@ Silent rule-based fallback is disabled in the main LLM-enabled experiments.
 └── outputs/
 ```
 
-The exact file names may vary slightly across released versions.
-
 ---
 
 ## Installation
@@ -177,8 +175,6 @@ REQUIRE_API_FOR_LLM_METHODS = True
 ALLOW_RULE_FALLBACK_WHEN_API_FAILS = False
 SEMANTIC_ALLOW_RULE_FALLBACK = False
 ```
-
-**Important:** Do not commit real API keys, private endpoints, or local credentials to GitHub. Use environment variables or an untracked local configuration file for private credentials.
 
 ---
 
