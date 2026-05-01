@@ -10,6 +10,15 @@ The central design principle is:
 
 > **LLM proposes; deterministic verifier decides.**
 
+The overall verifier-guided RAG-CRA workflow is shown below.
+
+<p align="center">
+  <img src="fig1.png" alt="RAG-CRA verifier-guided workflow" width="95%">
+</p>
+<p align="center">
+  <em>RAG-CRA workflow: the LLM generates semantic proposals, while deterministic repair, Monte Carlo risk verification, and local robust refinement decide the final waveform.</em>
+</p>
+
 The LLM is not used as a stand-alone waveform optimizer.
 
 ---
