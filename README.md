@@ -37,7 +37,7 @@ AI-enabled cognitive radio sensing systems must adapt waveform parameters under 
 - semantic-constrained stress tests;
 - API-integrity reporting with no silent fallback.
 
-The framework is designed to evaluate whether LLMs are useful when they are embedded inside a physically verified decision loop rather than trusted directly.
+The framework is designed to evaluate whether LLMs are useful when they are embedded inside an auditable verifier-guided decision loop rather than trusted directly.
 
 ---
 
@@ -112,7 +112,7 @@ Silent rule-based fallback is disabled in the main LLM-enabled experiments.
 ├── run_v45_paper_reporting.py
 ├── requirements.txt
 ├── README.md
-└── outputs/
+└── outputs/                 # generated locally; not tracked by git
 ```
 
 ---
